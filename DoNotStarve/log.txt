@@ -1,12 +1,12 @@
 Starting up
 Don't Starve: 100982 LINUX
 Build Date: 2014-05-01_17-04-23
-THREAD - started 'GAClient' (139687784539904)
+THREAD - started 'GAClient' (140428906047232)
 HttpClient::ClientThread::Main()
 cGame::InitializeOnMainThread
 WindowManager::Initialize
 Creating window with size 1366x768 at 22x1089
-THREAD - started 'SDLInputManager' (139687783921408)
+THREAD - started 'SDLInputManager' (140428905428736)
 GLInfo
 ~~~~~~
 GL_VENDOR: Intel Open Source Technology Center
@@ -461,113 +461,10 @@ scripts/mods.lua(269,1) Mod: MinimapHUD (Minimap HUD)	Registering prefabs
 scripts/mods.lua(292,1) Mod: MinimapHUD (Minimap HUD)	  Registering default mod prefab	
 scripts/gamelogic.lua(132,1) 	Load FE	
 scripts/gamelogic.lua(136,1) 	Load FE: done	
-scripts/screens/mainscreen.lua(525,1) platform_motd	table: 0x6cba7c0	
+scripts/screens/mainscreen.lua(525,1) platform_motd	table: 0x7e01820	
 SimLuaProxy::QueryServer()
 scripts/modindex.lua(85,1) ModIndex: Load sequence finished successfully.
 	
 Reset() returning
-focus gained
-HttpClientWriteCallback (0x00EEA30C, 1, 1019, 0x98C6DD00)
+HttpClientWriteCallback (0x0203130C, 1, 1019, 0x270F9D00)
 HttpClientWriteCallback READ 1019 (1019 total)
-focus lost
-focus gained
-scripts/mods.lua(304,1) unloading prefabs for mod MOD_Always On Status	
-scripts/mods.lua(304,1) unloading prefabs for mod MOD_BackpackAmulet	
-scripts/mods.lua(304,1) unloading prefabs for mod MOD_DisplayFoodValues	
-scripts/mods.lua(304,1) unloading prefabs for mod MOD_Where's My Beefalo	
-scripts/mods.lua(304,1) unloading prefabs for mod MOD_MinimapHUD	
-Collecting garbage...
-lua_gc took 0.03 seconds
-~SimLuaProxy()
-lua_close took 0.04 seconds
-ReleaseAll
-ReleaseAll Finished
-cGame::StartPlaying
-LOADING LUA
-DoLuaFile scripts/main.lua
-DoLuaFile loading buffer scripts/main.lua
-scripts/main.lua(161,1) running main.lua
-	
-scripts/modindex.lua(311,1) loaded modindex	
-scripts/modindex.lua(75,1) ModIndex: Beginning normal load sequence.
-	
-scripts/modindex.lua(386,1) Could not load mod_config_data/modconfiguration_MinimapHUD	
-scripts/mods.lua(152,1) Loading mod: MinimapHUD (Minimap HUD)	
-scripts/modindex.lua(386,1) Could not load mod_config_data/modconfiguration_BackpackAmulet	
-scripts/mods.lua(152,1) Loading mod: BackpackAmulet (Backpack and Amulet Slots) (Old API! (mod: 4 game: 6) )	
-scripts/modindex.lua(386,1) Could not load mod_config_data/modconfiguration_Always On Status	
-scripts/mods.lua(152,1) Loading mod: Always On Status	
-scripts/modindex.lua(386,1) Could not load mod_config_data/modconfiguration_Where's My Beefalo	
-scripts/mods.lua(152,1) Loading mod: Where's My Beefalo (Where's My Beefalo?) (Old API! (mod: 5 game: 6) )	
-scripts/modindex.lua(386,1) Could not load mod_config_data/modconfiguration_DisplayFoodValues	
-scripts/mods.lua(152,1) Loading mod: DisplayFoodValues (Информация о еде) (Old API! (mod: 2 game: 6) )	
-scripts/mods.lua(179,1) Mod: Always On Status	Loading modworldgenmain.lua	
-scripts/mods.lua(187,1) Mod: Always On Status	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(179,1) Mod: Always On Status	Loading modmain.lua	
-scripts/mods.lua(179,1) Mod: BackpackAmulet (Backpack and Amulet Slots)	Loading modworldgenmain.lua	
-scripts/mods.lua(187,1) Mod: BackpackAmulet (Backpack and Amulet Slots)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(179,1) Mod: BackpackAmulet (Backpack and Amulet Slots)	Loading modmain.lua	
-scripts/mods.lua(179,1) Mod: DisplayFoodValues (Информация о еде)	Loading modworldgenmain.lua	
-scripts/mods.lua(187,1) Mod: DisplayFoodValues (Информация о еде)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(179,1) Mod: DisplayFoodValues (Информация о еде)	Loading modmain.lua	
-scripts/mods.lua(179,1) Mod: Where's My Beefalo (Where's My Beefalo?)	Loading modworldgenmain.lua	
-scripts/mods.lua(187,1) Mod: Where's My Beefalo (Where's My Beefalo?)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(179,1) Mod: Where's My Beefalo (Where's My Beefalo?)	Loading modmain.lua	
-scripts/mods.lua(179,1) Mod: MinimapHUD (Minimap HUD)	Loading modworldgenmain.lua	
-scripts/mods.lua(187,1) Mod: MinimapHUD (Minimap HUD)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(179,1) Mod: MinimapHUD (Minimap HUD)	Loading modmain.lua	
-LOADING LUA SUCCESS
-scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	1403	
-scripts/playerprofile.lua(477,1) loaded profile	
-scripts/playerprofile.lua(541,1) bloom_enabled	false	
-scripts/saveindex.lua(99,1) loaded saveindex	
-scripts/gamelogic.lua(1172,1) OnFilesLoaded()	
-scripts/gamelogic.lua(1161,1) OnUpdatePurchaseStateComplete	
-scripts/gamelogic.lua(148,1) 	Unload FE	
-scripts/gamelogic.lua(150,1) 	Unload FE done	
-scripts/dlcsupport.lua(24,1) Load scripts/DLC001_prefab_files	
-scripts/mods.lua(269,1) Mod: Always On Status	Registering prefabs	
-scripts/mods.lua(292,1) Mod: Always On Status	  Registering default mod prefab	
-scripts/mods.lua(269,1) Mod: BackpackAmulet (Backpack and Amulet Slots)	Registering prefabs	
-scripts/mods.lua(292,1) Mod: BackpackAmulet (Backpack and Amulet Slots)	  Registering default mod prefab	
-scripts/mods.lua(269,1) Mod: DisplayFoodValues (Информация о еде)	Registering prefabs	
-scripts/mods.lua(292,1) Mod: DisplayFoodValues (Информация о еде)	  Registering default mod prefab	
-scripts/mods.lua(269,1) Mod: Where's My Beefalo (Where's My Beefalo?)	Registering prefabs	
-scripts/mods.lua(292,1) Mod: Where's My Beefalo (Where's My Beefalo?)	  Registering default mod prefab	
-scripts/mods.lua(269,1) Mod: MinimapHUD (Minimap HUD)	Registering prefabs	
-scripts/mods.lua(292,1) Mod: MinimapHUD (Minimap HUD)	  Registering default mod prefab	
-scripts/gamelogic.lua(164,1) 	LOAD BE	
-scripts/gamelogic.lua(172,1) 	LOAD BE : done	
-MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
-MiniMapComponent::AddAtlas( ../mods/Where's My Beefalo/minimap/mandrake.xml )
-MiniMapComponent::AddAtlas( ../mods/Where's My Beefalo/minimap/babybeefalo.xml )
-MiniMapComponent::AddAtlas( ../mods/Where's My Beefalo/minimap/beefalo.xml )
-MiniMapComponent::AddAtlas( ../mods/Where's My Beefalo/minimap/carrot_planted.xml )
-MiniMapComponent::AddAtlas( ../mods/Where's My Beefalo/minimap/chester_eyebone.xml )
-MiniMapComponent::AddAtlas( ../mods/Where's My Beefalo/minimap/flint.xml )
-MiniMapComponent::AddAtlas( ../mods/Where's My Beefalo/minimap/rabbithole.xml )
-MiniMapComponent::AddAtlas( ../mods/Where's My Beefalo/minimap/rocky.xml )
-MiniMapComponent::AddAtlas( ../mods/Where's My Beefalo/minimap/red_mushroom.xml )
-MiniMapComponent::AddAtlas( ../mods/Where's My Beefalo/minimap/green_mushroom.xml )
-MiniMapComponent::AddAtlas( ../mods/Where's My Beefalo/minimap/blue_mushroom.xml )
-MiniMapComponent::AddAtlas( ../mods/Where's My Beefalo/minimap/lightninggoat.xml )
-scripts/components/seasonmanager.lua(1586,1) AUTUMN TIME	
-scripts/gamelogic.lua(494,1) Loading Nav Grid	
-scripts/saveindex.lua(395,1) ClearCurrentResurrectors CB	
-Could not find anim [idle1] in bank [abigail_flower]
-scripts/prefabs/glommerflower.lua(12,1) bye bye glommer	
-scripts/prefabs/pinecone.lua(25,1) PLANT	193.82325142654	
-scripts/prefabs/pinecone.lua(25,1) PLANT	195.13293723146	
-scripts/entityscript.lua(280,1) component propagator already exists!	
-scripts/saveindex.lua(218,1) LoadSavedSeasonData CB	
-scripts/widgets/bloodover.lua(30,1) update state	
-scripts/widgets/bloodover.lua(50,1) turn off	
-Could not find anim build naughty
-Could not find anim bank [naughty]
-Could not find anim build temperature
-Could not find anim bank [temperature]
-scripts/modindex.lua(85,1) ModIndex: Load sequence finished successfully.
-	
-Reset() returning
-../mods/BackpackAmulet/images/newslots.tex is 340x68 but compressed textures must have power of 2 dimensions.
-focus lost
